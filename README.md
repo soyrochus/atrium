@@ -1,8 +1,20 @@
 # Atrium
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![FOSS Pluralism](https://img.shields.io/badge/FOSS-Pluralism-green.svg)](FOSS_PLURALISM_MANIFESTO.md)
+[![Python](https://img.shields.io/badge/Python-3.13%2B-3776AB?logo=python&logoColor=white)](https://www.python.org)
+[![Rust](https://img.shields.io/badge/Rust-stable-000000?logo=rust&logoColor=white)](https://www.rust-lang.org)
+[![Linux](https://img.shields.io/badge/Linux-supported-FCC624?logo=linux&logoColor=black)](https://www.kernel.org)
+[![macOS](https://img.shields.io/badge/macOS-supported-000000?logo=apple&logoColor=white)](https://www.apple.com/macos)
+[![Windows](https://img.shields.io/badge/Windows-untested-0078D6?logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+
 ![Atrium](./images/atrium-small.png)
 
 Atrium is a console file manager using a [Miller Columns layout](https://en.wikipedia.org/wiki/Miller_columns) (also see [Grokpidia](https://grokipedia.com/page/Miller_columns)), available in two implementations: Python (Textual) and Rust (crossterm).
+
+This first version is a view-only demonstrator: it focuses on navigation and preview, and does not perform file operations.
+
+🍀 Confirmed on Linux and macOS. Windows should work, but has not been verified yet.
 
 It keeps three levels visible at once:
 
@@ -128,3 +140,15 @@ atrium/
 ├── pyproject.toml
 └── Cargo.toml
 ```
+
+## Principles of Participation
+
+Everyone is invited and welcome to contribute: open issues, propose pull requests, share ideas, or help improve documentation. Participation is open to all, regardless of background or viewpoint. 
+
+This project follows the [FOSS Pluralism Manifesto](./FOSS_PLURALISM_MANIFESTO.md), which affirms respect for people, freedom to critique ideas, and space for diverse perspectives. 
+
+## License and Copyright
+
+Copyright (c) 2026, Iwan van der Kleijn
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
